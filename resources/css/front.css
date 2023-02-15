@@ -1,0 +1,12 @@
+li a {
+    color: #f8f9fa;
+    text-decoration: underline;
+    display: block;
+    background-color: #8f99a3;
+    margin-right: 10px;
+    /* width: 80px; */
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 11px;
+}

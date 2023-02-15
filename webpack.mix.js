@@ -17,3 +17,5 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/profile.scss', 'public/css')
     .sass('resources/sass/front.scss', 'public/css')
     .sourceMaps();
+    
+    

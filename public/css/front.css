@@ -1,0 +1,122 @@
+body {
+  color: #000;
+}
+
+.navbar-laravel {
+  background-color: #000;
+}
+
+.header .logo {
+  width: 120px;
+  height: 82px;
+  border-bottom: solid 3px #cce4ff;
+  position: relative;
+}
+
+.headline .caption {
+  position: relative;
+  max-width: 350px;
+}
+.headline .caption .image img {
+  width: 100%;
+}
+.headline .caption .title {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.headline .caption .title h1 {
+  color: #fff;
+  font-size: 1.2em;
+}
+.headline .caption .body {
+  font-size: 0.8em;
+}
+
+.posts .post .date {
+  font-size: 0.6em;
+  color: #999999;
+}
+.posts .post .title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.posts .post .body {
+  font-size: 0.8em;
+}
+.posts .post .image img {
+  width: 250px;
+}
+.posts .header-navigation {
+  background: #2e1200;
+}
+.posts #header-navigation ul {
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 3%;
+  width: 94%;
+  max-width: 960px;
+  list-style-type: none;
+}
+.posts #header-navigation ul li {
+  position: relative;
+  float: left;
+  width: 20%;
+}
+.posts #header-navigation ul li:first-child::before {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 25%;
+  left: 0px;
+  width: 1px;
+  height: 50%;
+  background-color: #976d52;
+}
+.posts #header-navigation ul li::after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 25%;
+  right: 0px;
+  width: 1px;
+  height: 50%;
+  background-color: #976d52;
+}
+.posts #header-navigation ul li a {
+  display: block;
+  padding: 17px 10px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+.posts #header-navigation ul li a:hover {
+  background-color: #472108;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgba(211, 211, 211, 0.3);
+}
+
+li a {
+  color: #f8f9fa;
+  text-decoration: underline;
+  display: block;
+  background-color: #8f99a3;
+  margin-right: 10px;
+  /* width: 80px; */
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 11px;
+}
+
+#col-md-6 {
+  flex: 0 0 auto;
+  width: 100%;
+}

@@ -1,0 +1,137 @@
+body {
+  color: #000;
+}
+
+.navbar-laravel {
+  background-color: #000;
+}
+
+.header {
+  .logo {
+      width: 120px;
+      height: 82px;
+      border-bottom: solid 3px #cce4ff;
+      position: relative;
+  }
+}
+
+.headline {
+  .caption {
+    position: relative;
+    max-width: 350px;
+    .image {
+      img {
+    width: 100%;
+      }
+    }
+    .title {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.6);
+      h1 {
+    color: #fff;
+    font-size: 1.2em;
+      }
+    }
+    .body {
+      font-size: 0.8em;
+    }
+  }
+}
+
+.posts {
+  .post {
+    .date {
+      font-size: 0.6em;
+      color: #999999;
+    }
+    .title {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    .body {
+      font-size: 0.8em;
+    }
+    .image {
+      img {
+    width: 250px;
+      }
+    }
+  }
+  .header-navigation {
+	background: #2e1200;
+}
+#header-navigation ul {
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0 3%;
+	width: 94%;
+	max-width: 960px;
+	list-style-type: none;
+}
+	#header-navigation ul li {
+		position: relative;
+		float: left;
+		width: 20%;
+	}
+	#header-navigation ul li:first-child::before {
+		position: absolute;
+		display: block;
+		content: "";
+		top: 25%;
+		left: 0px;
+		width: 1px;
+		height: 50%;
+		background-color: #976d52;
+	}
+	#header-navigation ul li::after {
+		position: absolute;
+		display: block;
+		content: "";
+		top: 25%;
+		right: 0px;
+		width: 1px;
+		height: 50%;
+		background-color: #976d52;
+	}
+		#header-navigation ul li a {
+			display: block;
+			padding: 17px 10px;
+			color: #fff;
+			text-align: center;
+			text-decoration: none;
+		}
+		#header-navigation ul li a:hover {
+			background-color: #472108;
+		}
+		
+	
+}
+
+ul{
+    list-style: none;
+    display:flex;
+    justify-content: flex-start; // 省略可
+    background-color: rgba(211, 211, 211,0.3); 
+    // 分かりやすいように背景色を指定
+}
+
+li a {
+    color: #f8f9fa;
+    text-decoration: underline;
+    display: block;
+    background-color: #8f99a3;
+    margin-right: 10px;
+    /* width: 80px; */
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 11px;
+}
+
+#col-md-6 {
+                flex: 0 0 auto;
+                width: 100%;
+                }
