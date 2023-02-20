@@ -4,9 +4,12 @@
 @section('content')
     <div class="container">
         <div class="row">
-            <div class="col-md-8 mx-auto">
+            <div class="col-md-10 text-end">
                 <body style="background-color:MediumTurquoise;">
                 <a href="https://b0615c5757084f92b3bce3e655e574c7.vfs.cloud9.ap-northeast-1.amazonaws.com/">TOP</a>
+            </div>
+        </div>
+           <div class="col-md-10 mx-auto"> 
                 <h2>アカウント作成</h2>
                 <form action="{{ route('admin.profile.create') }}" method="post" enctype="multipart/form-data">
 

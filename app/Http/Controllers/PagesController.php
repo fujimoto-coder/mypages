@@ -27,7 +27,7 @@ class PagesController extends Controller
     public function show_music(Request $request)
     {
         // dd('show_music');   
-        $posts = Page::where('genre', 'music')->get();
+        $posts = Page::where('genre', 'music')->get()->sortByDesc('updated_at');
         if (count($posts) > 0) {
             $headline = $posts->shift();
         } else {
@@ -40,7 +40,7 @@ class PagesController extends Controller
      public function show_artist(Request $request)
     {
         // dd('show_music');   
-        $posts = Page::where('genre', 'artist')->get();
+        $posts = Page::where('genre', 'artist')->get()->sortByDesc('updated_at');
         if (count($posts) > 0) {
             $headline = $posts->shift();
         } else {
@@ -53,7 +53,7 @@ class PagesController extends Controller
       public function show_instrument(Request $request)
     {
         // dd('show_music');   
-        $posts = Page::where('genre', 'instrument')->get();
+        $posts = Page::where('genre', 'instrument')->get()->sortByDesc('updated_at');
         if (count($posts) > 0) {
             $headline = $posts->shift();
         } else {
@@ -66,7 +66,7 @@ class PagesController extends Controller
         public function show_live(Request $request)
     {
         // dd('show_music');   
-        $posts = Page::where('genre', 'live')->get();
+        $posts = Page::where('genre', 'live')->get()->sortByDesc('updated_at');
         if (count($posts) > 0) {
             $headline = $posts->shift();
         } else {
@@ -79,7 +79,7 @@ class PagesController extends Controller
          public function show_lesson(Request $request)
     {
         // dd('show_music');   
-        $posts = Page::where('genre', 'lesson')->get();
+        $posts = Page::where('genre', 'lesson')->get()->sortByDesc('updated_at');
         if (count($posts) > 0) {
             $headline = $posts->shift();
         } else {
@@ -92,7 +92,7 @@ class PagesController extends Controller
          public function show_bar(Request $request)
     {
         // dd('show_music');   
-        $posts = Page::where('genre', 'bar')->get();
+        $posts = Page::where('genre', 'bar')->get()->sortByDesc('updated_at');
         if (count($posts) > 0) {
             $headline = $posts->shift();
         } else {
