@@ -1,5 +1,7 @@
 @extends('layouts.front')
-
+@section('cond_title')
+    
+@endsection
 @section('content')
     <div class="container">
         <hr color="#c0c0c0">

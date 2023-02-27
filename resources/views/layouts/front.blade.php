@@ -96,6 +96,34 @@
                 </div>
             </nav>
             {{-- ここまでナビゲーションバー --}}
+             <div class="col-md-8">
+                @php
+                    $searchable_routes = [
+                        "pages.index",
+                        "pages.show_artist",
+                        "pages.show_bar",
+                        "pages.show_instrument",
+                        "pages.show_lesson",
+                        "pages.show_live",
+                        "pages.show_music"
+                    ];
+                @endphp
+                @if (in_array(Route::currentRouteName(), $searchable_routes))
+                    <form action="" method="get">
+                        <div class="form-group row">
+                            <label class="col-md-2">タイトル</label>
+                            <div class="col-md-8">
+                                <input type="text" class="form-control" name="cond_title" value=@yield('cond_title')>
+                            </div>
+                            <div class="col-md-2">
+                                @csrf
+                                <input type="submit" class="btn btn-primary" value="検索">
+                            </div>
+                        </div>
+                </form>
+                @endif
+            </div>
+        </div>
             @guest
             <ul>
                 <li><a href="https://b0615c5757084f92b3bce3e655e574c7.vfs.cloud9.ap-northeast-1.amazonaws.com/">投稿一覧</a></li>
