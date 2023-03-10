@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('pages', function (Blueprint $table) {
             $table->id();
             $table->string('title'); // ニュースのタイトルを保存するカラム
-            $table->string('body');  
+            $table->text('body');  
             $table->string('genre'); // ニュースの本文を保存するカラム
             $table->string('image_path')->nullable();  // 画像のパスを保存するカラム
             $table->timestamps();

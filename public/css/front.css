@@ -3,12 +3,12 @@ body {
 }
 
 .navbar-laravel {
-  background-color: #000;
+  background-color: #ffffff;
 }
 
 .header .logo {
   width: 120px;
-  height: 82px;
+  height: 90px;
   border-bottom: solid 3px #cce4ff;
   position: relative;
 }

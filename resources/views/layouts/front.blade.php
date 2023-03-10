@@ -45,7 +45,7 @@
              <header>
             <div class="container">
              <div class="header-title-area">
-             <h1 class="logo">Musicbeach</h1>
+             <h1 class="logo">ラテンのトビラ🚪</h1>
              <p class="text-sub">あなたに最適な音楽情報を提供します。</p>
              </div>
         <div id="app">
@@ -125,7 +125,7 @@
             </div>
         </div>
             @guest
-            <ul>
+            <p><ul>
                 <li><a href="https://b0615c5757084f92b3bce3e655e574c7.vfs.cloud9.ap-northeast-1.amazonaws.com/">投稿一覧</a></li>
                 <li><a href="{{ route('pages.show_music') }}">音楽</a></li>
                 <li><a href="{{ route('pages.show_artist') }}">アーティスト</a></li>
@@ -134,9 +134,9 @@
                 <li><a href="{{ route('pages.show_instrument') }}">楽器 </a></li>
                 <li><a href="{{ route('pages.show_bar') }}">ミュージックバー/レストラン </a></li>
                 <li><a href="admin/profile/create">ID</a></li>
-            </ul>
+            </p></ul>
             @else
-            <ul>
+            <p><ul>
                 <li><a href="https://b0615c5757084f92b3bce3e655e574c7.vfs.cloud9.ap-northeast-1.amazonaws.com/">投稿一覧</a></li>
                 <li><a href="{{ route('pages.show_music') }}">音楽</a></li>
                 <li><a href="{{ route('pages.show_artist') }}">アーティスト</a></li>
@@ -146,7 +146,7 @@
                 <li><a href="{{ route('pages.show_bar') }}">ミュージックバー/レストラン </a></li>
                 <li><a href="admin/pages/create">投稿</a></li>
                 <li><a href="admin/profile/create">ID</a></li>
-            </ul>
+            </p></ul>
             @endguest
             <main class="py-4">
                 {{-- コンテンツをここに入れるため、@yieldで空けておきます。 --}}
