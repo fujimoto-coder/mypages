@@ -25,6 +25,9 @@
         <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
         {{-- この章の後半で作成するCSSを読み込みます --}}
         <link href="{{ secure_asset('css/front.css') }}" rel="stylesheet">
+        
+        
+
         <style>
             li a {
                 color: #f8f9fa;
@@ -46,7 +49,7 @@
             <div class="container">
              <div class="header-title-area">
              <h1 class="logo">ラテンのトビラ🚪</h1>
-             <p class="text-sub">あなたに最適な音楽情報を提供します。</p>
+             <p class="text-sub">あなた好みのラテン音楽情報を提供します。</p>
              </div>
         <div id="app">
             {{-- 画面上部に表示するナビゲーションバーです。 --}}
@@ -145,7 +148,7 @@
                 <li><a href="{{ route('pages.show_instrument') }}">楽器 </a></li>
                 <li><a href="{{ route('pages.show_bar') }}">ミュージックバー/レストラン </a></li>
                 <li><a href="admin/pages/create">投稿</a></li>
-                <li><a href="admin/profile/create">ID</a></li>
+                <li><a href="admin/profile/create">アカウント登録</a></li>
             </p></ul>
             @endguest
             <main class="py-4">

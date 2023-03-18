@@ -5,6 +5,8 @@
     <div class="container">
         <div class="row">
             <h2>プロフィール一覧</h2>
+            <div class="col-md-12 text-end">
+            <a href="https://b0615c5757084f92b3bce3e655e574c7.vfs.cloud9.ap-northeast-1.amazonaws.com/"　role="button" class="btn btn-primary">トップ</a>
         </div>
         <div class="row">
             <div class="col-md-4">

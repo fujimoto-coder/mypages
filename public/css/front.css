@@ -1,3 +1,8 @@
+@charset "UTF-8";
+h1 {
+  margin-top: 1em;
+}
+
 body {
   color: #000;
 }
@@ -8,7 +13,7 @@ body {
 
 .header .logo {
   width: 120px;
-  height: 90px;
+  height: 60px;
   border-bottom: solid 3px #cce4ff;
   position: relative;
 }
@@ -32,7 +37,7 @@ body {
   font-size: 1.2em;
 }
 .headline .caption .body {
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 .posts .post .date {
@@ -119,4 +124,20 @@ li a {
 #col-md-6 {
   flex: 0 0 auto;
   width: 100%;
+}
+
+/*** PCサイズ ***/
+@media (min-width: 769px) {
+  .abcd {
+    width: 1160px;
+  }
+}
+/*** タブレットサイズ ***/
+@media (max-width: 768px) and (min-width: 321px) {
+  .abcd {
+    width: 100%;
+  }
+  ul {
+    display: block;
+  }
 }

@@ -22,7 +22,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <p class="body mx-auto">{{ Str::limit($headline->body, 650) }}</p>
+                            <p class="body mx-auto">{{ $headline->body }}</p>
                         </div>
                     </div>
                 </div>
