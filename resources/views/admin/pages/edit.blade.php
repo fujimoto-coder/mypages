@@ -36,6 +36,7 @@
                                 <option value="lesson" @if($pages_form->genre=="lesson") selected @endif>レッスン</option>
                                 <option value="instrument" @if($pages_form->genre=="instrument") selected @endif>楽器</option>
                                 <option value="bar" @if($pages_form->genre=="bar") selected @endif>ミュージックバー/レストラン</option>
+                                 <option value="operation" @if($pages_form->genre=="operation") selected @endif>運営</option>
                             </select>
                         </div>
                     <div class="form-group row">

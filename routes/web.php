@@ -55,6 +55,8 @@ Route::controller(PublicPagesController::class)->name('pages.')->group(function 
     Route::get('/', 'index')->name('index');
     Route::get('show_bar', 'show_bar')->name('show_bar');
     Route::get('/', 'index')->name('index');
+    Route::get('show_operation', 'show_operation')->name('show_operation');
+    Route::get('/', 'index')->name('index');
 });
 
 

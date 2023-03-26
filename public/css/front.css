@@ -126,6 +126,10 @@ li a {
   width: 100%;
 }
 
+svg.w-5.h-5 {
+  width: 44px !important;
+}
+
 /*** PCサイズ ***/
 @media (min-width: 769px) {
   .abcd {

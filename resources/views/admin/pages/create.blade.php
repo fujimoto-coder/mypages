@@ -47,6 +47,7 @@
                                 <option value='lesson'>レッスン</option>
                                 <option value='instrument'>楽器</option>
                                 <option value='bar'>ミュージックバー/レストラン</option>
+                                <option value='operation'>運営</option>
                             </select>
                         </div>
                     <div class="form-group row">

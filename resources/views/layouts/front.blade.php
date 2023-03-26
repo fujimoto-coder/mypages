@@ -108,7 +108,8 @@
                         "pages.show_instrument",
                         "pages.show_lesson",
                         "pages.show_live",
-                        "pages.show_music"
+                        "pages.show_music",
+                        "pages.show_operation",
                     ];
                 @endphp
                 @if (in_array(Route::currentRouteName(), $searchable_routes))
@@ -136,7 +137,7 @@
                 <li><a href="{{ route('pages.show_lesson') }}">レッスン</a></li>
                 <li><a href="{{ route('pages.show_instrument') }}">楽器 </a></li>
                 <li><a href="{{ route('pages.show_bar') }}">ミュージックバー/レストラン </a></li>
-                <li><a href="admin/profile/create">ID</a></li>
+                <li><a href="{{ route('pages.show_operation') }}">運営　</a></li>
             </p></ul>
             @else
             <p><ul>
@@ -147,8 +148,9 @@
                 <li><a href="{{ route('pages.show_lesson') }}">レッスン</a></li>
                 <li><a href="{{ route('pages.show_instrument') }}">楽器 </a></li>
                 <li><a href="{{ route('pages.show_bar') }}">ミュージックバー/レストラン </a></li>
+                <li><a href="{{ route('pages.show_operation') }}">運営 </a></li>
                 <li><a href="admin/pages/create">投稿</a></li>
-                <li><a href="admin/profile/create">アカウント登録</a></li>
+                
             </p></ul>
             @endguest
             <main class="py-4">
