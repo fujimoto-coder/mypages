@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <h2>投稿一覧</h2>
-            <a href="https://b0615c5757084f92b3bce3e655e574c7.vfs.cloud9.ap-northeast-1.amazonaws.com/">TOP</a>
+            <a href="https://mypages.mydns.jp/">TOP</a>
         </div>
         <div class="row">
             <div class="col-md-4">
