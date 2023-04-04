@@ -130,7 +130,7 @@
         </div>
             @guest
             <p><ul>
-                <li><a href="https://b0615c5757084f92b3bce3e655e574c7.vfs.cloud9.ap-northeast-1.amazonaws.com/">投稿一覧</a></li>
+                <li><a href="https://mypages.mydns.jp/">投稿一覧</a></li>
                 <li><a href="{{ route('pages.show_music') }}">音楽</a></li>
                 <li><a href="{{ route('pages.show_artist') }}">アーティスト</a></li>
                 <li><a href="{{ route('pages.show_live') }}">ライブ/コンサート</a></li>
@@ -141,7 +141,7 @@
             </p></ul>
             @else
             <p><ul>
-                <li><a href="https://b0615c5757084f92b3bce3e655e574c7.vfs.cloud9.ap-northeast-1.amazonaws.com/">投稿一覧</a></li>
+                <li><a href="https://mypages.mydns.jp/">投稿一覧</a></li>
                 <li><a href="{{ route('pages.show_music') }}">音楽</a></li>
                 <li><a href="{{ route('pages.show_artist') }}">アーティスト</a></li>
                 <li><a href="{{ route('pages.show_live') }}">ライブ/コンサート</a></li>
