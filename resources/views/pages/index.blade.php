@@ -42,7 +42,7 @@
                                     {{ Str::limit($post->title, 150) }}
                                 </div>
                                 <div class="body mt-3">
-                                    {{ Str::limit($post->body, 1500) }}
+                                    {{ $headline->body }}
                                 </div>
                             </div>
                             <div class="image col-md-6 text-right mt-4">
