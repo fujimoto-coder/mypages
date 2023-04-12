@@ -48,7 +48,7 @@
              <header>
             <div class="container">
              <div class="header-title-area">
-             <h1 class="logo">ラテンのトビラ🚪</h1>
+             <h1 class="logo">ラテンのトビラ🚪🏝</h1>
              <p class="text-sub">あなた好みのラテン音楽情報を提供します。</p>
              </div>
         <div id="app">
